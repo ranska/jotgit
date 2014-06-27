@@ -38,6 +38,8 @@ Template.fileEdit.destroyed = ->
     $(Jotgit.cm.getWrapperElement()).remove()
     delete Jotgit.cm
 
+##  Move this class to a dedicated file
+#
 class MeteorServerAdapter
   constructor: (@filePath) ->
 
